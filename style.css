@@ -1,0 +1,55 @@
+/* Color and fonts */
+
+body {
+	background-image: url(images/background.jpg);
+	color: #575F7D;
+	font-family: 'Roboto', century gothic;
+	font-size: 17px;
+	font-weight: lighter;
+}
+	
+h1, h2, h3 {
+	font-family: 'Roboto', century gothic;
+}
+
+h1 {
+	color: #f61f4fbf;
+	font-size: 35px;
+	font-weight: 900;
+}
+
+h2 {
+	color: pink;
+	font-size: 25px; 
+	font-weight: 0;
+}
+
+a {
+	font-family: 'Roboto', century gothic;
+	text-decoration: none;
+	color: #95afe4;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color: black;
+}
+
+/* Custom design with class */ 
+
+.container {
+	width: 650px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(50,50, 93, .1);
+	border-radius: 15px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle { /* img src="images/profil.jpg" class="img-circle" */
+  border-radius: 50%;
+}
